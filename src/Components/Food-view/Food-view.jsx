@@ -1,7 +1,7 @@
 const FoodView = ({ foods, onDelete, onEdit }) => {
   return (
-    <div className="grid grid-cols-2 gap-4">
-      {foods.length === 0 && <p>No food added yet.</p>}
+    <div className="grid grid-cols-4 gap-8">
+      {foods.length === 0 && <p>There is no food now.</p>}
 
       {foods.map((food) => (
         <div
